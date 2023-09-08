@@ -1,0 +1,95 @@
+[
+    {
+       "cat_id":1,
+       "cat_name":"All categories",
+       "products":[
+           {
+              "id":1,
+              "name":"name 1",
+              "text":"Lorem ipsun",
+              "price":"€12.49",
+              "image":"image1.png"
+           },
+           {
+            "id":2,
+            "name":"name 1",
+            "text":"Lorem ipsun",
+            "price":"€12.49",
+            "image":"image1.png"
+            },
+            {
+                "id":3,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             },
+             {
+                "id":4,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             },
+             {
+                "id":5,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             },
+             {
+                "id":6,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             },
+             {
+                "id":7,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             },
+             {
+                "id":8,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             },
+             {
+                "id":9,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             },
+             {
+                "id":10,
+                "name":"name 1",
+                "text":"Lorem ipsun",
+                "price":"€12.49",
+                "image":"image1.png"
+             }
+
+       ]
+    },
+    {
+       "cat_id":2,
+       "cat_name":"Book",
+       "products":[
+        {
+            "id":11,
+            "name":"name 1",
+            "text":"Lorem ipsun",
+            "price":"€12.49",
+            "image":"image1.png"
+         }
+       ]
+    },
+    {
+
+    }
+]
