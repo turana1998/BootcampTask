@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mate Store</a>
+
+        <div class="navbar-collapse collapse" style="flex-grow: 0;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item d-flex align-items-center">
+                    0 <a class="nav-link" href="#">
+                        <i class="ri-shopping-cart-line"></i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="submenuDropdown" href="#" role="button"  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu" aria-labelledby="submenuDropdown">
+                        <a class="dropdown-item" href="">element1</a>
+                        <a class="dropdown-item" href="">element2</a>
+                    </div>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <section id="product-section">
+        <div class="container">
+            <div class="filters">
+                <button type="button" class="filter-option" onclick="">All categories</button>
+                <button type="button" class="filter-option" onclick="">Book</button>
+                <button type="button" class="filter-option" onclick="">Music</button>
+                <button type="button" class="filter-option" onclick="">Food</button>
+                <button type="button" class="filter-option" onclick="">Perfume</button>
+                <button type="button" class="filter-option" onclick="">Medical</button>
+      
+              </div>
+              <div class="products mt-5">
+                  <div class="product-list row">
+                      <div class="col-lg-3 col-md-6 col-12 product-item" data="">
+                          <div class="product-img-box">
+                              <img src="./image/sekil1.png" alt="product image" class="product-img w-100"/>
+                              <div class="overlay">
+                                  <a class="overlay-link" href="product.html">
+                                      <img src="./image/arrow.png" height="50px" alt="arrow" class="arrow-img"/>
+                                  </a>
+                                  <div class="overlay-info">
+                                      <p>Design | Branding</p>
+                                      <h2>Creative Web Design</h2>
+                                  </div>
+                              </div>
+                          </div>
+                          <hr>
+                          <div class="product-content">
+                              <p class="product-price">€12.49</p>
+                              <button type="button" class="btn btn-add-cart">+Cart</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
+    <footer class="bg-light text-black py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="text-center">
+                        <i class="ri-car-line"></i>
+                        <h5>kart basliq</h5>
+                        <p>kart metn</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="text-center">
+                        <i class="ri-car-line"></i>
+                        <h5>kart basliq</h5>
+                        <p>kart metn</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4">
+                    <div class="text-center">
+                        <i class="ri-car-line"></i>
+                        <h5>kart basliq</h5>
+                        <p>kart metn</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright &copy; MateStore 2019 All Rights Reserved</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline float-md-end">
+                        <li class="list-inline-item"><i class="ri-mastercard-line"></i></li>
+                        <li class="list-inline-item"><i class="ri-visa-fill"></i></li>
+                        <li class="list-inline-item"><i class="ri-mastercard-fill"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
